@@ -30,6 +30,7 @@ Using fragrancenet.com as a reference point, I scrape user reviews and perfume i
 
 **I plan to turn the model into a telegram bot -> user rates perfumes from the given list -> gets 5 recommendations in return.**
 
+**merged_after_nlp.csv contains the dataset used to construct a recommender - it has already been cleaned and the missing reviews were restored.**
 
 **Problems that I have faced so far:**
 1) To access the reviews, we need to click buttons on the website - **solved with Selenium**
