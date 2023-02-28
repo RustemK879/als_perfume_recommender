@@ -1,5 +1,5 @@
 # als_perfume_recommender
-**This project is under construction. General goal - create a recommender system for fragnances (WOMEN ONLY) for the collected data by using ALS and explicit user ratings.**
+**This project is under construction (some files are messier than they should be - okay to use for general reference but i will clean them later). General goal - create a recommender system for fragnances (WOMEN ONLY) for the collected data by using ALS and explicit user ratings.**
 
 The motivation: Perfumes are one of the greatest and yet risky gifts. They are great because, as humans, we tend to associate many things with fragnances and such gift is usually viewed as personalized (and even intimate). They are risky, since each person has a unique taste - finding the 'right one' can be really painful and often is as hard as finding a needle in the haystack. 
 
@@ -7,7 +7,7 @@ My mother loves perfumes - I really wanted to gift her one but there are two pro
 1) I am no expert at choosing perfumes;
 2) I am allergic to perfumes.
 
-However, I have access to the perfumes that she likes. What are the possible solutions?
+However, I have an access to the perfumes that she likes. I still want to surprise her - what are the possible solutions?
 
 **First solution (brute force):**
 1) Go to the perfume store, ask an assistant to recommend 10 perfumes and rank them from most to least likely;
@@ -26,7 +26,7 @@ However, I have access to the perfumes that she likes. What are the possible sol
 
 **While the above part is mostly comical, I chose to use the third solution.**
 
-Using fragrancenet.com as a reference point, I scrape user reviews and perfume info from the website into a dataset. I then clean this dataset, do EDA and use this dataset to derive perfume recommendations for unseen users. 
+Using fragrancenet.com as a reference point, I scrape user reviews and perfume info from the website into a dataset. I then clean this dataset, do EDA and use this dataset to derive perfume recommendations for the unseen users. 
 
 **I plan to turn the model into a telegram bot -> user rates perfumes from the given list -> gets 5 recommendations in return.**
 
