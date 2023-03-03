@@ -42,4 +42,4 @@ Using fragrancenet.com as a reference point, I scrape user reviews and perfume i
 7) 2500 Reviews do not have star rating but have text reviews - **Solved with transfer learning, simple transformers (RoBERTa)**
 8) Star ratings are heavily skewed towards 5 - RoBERTa learns to predict any review as 5-star - **solved by calibrating weights in multiclass**
 9) Most of the users leave only one review (87%) - **solved by using hybrid recommender** (no incentive to leave reviews, business problem)
-10) Calculating additional metrics of model performance besides RMSE and MAE **researching this now**
+
