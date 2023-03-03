@@ -1,5 +1,5 @@
 # als_perfume_recommender
-**This project is under construction (some files are messier than they should be - okay to use for general reference but i will clean them later). General goal - create a recommender system for fragnances (WOMEN ONLY) for the collected data by using ALS and explicit user ratings.**
+**This project is under construction (some files are messier than they should be - okay to use for general reference but i will clean them later). General goal - create a recommender system for fragnances (WOMEN ONLY) for the collected data by using Item-item CF and explicit user ratings.**
 
 The motivation: Perfumes are one of the greatest and yet risky gifts. They are great because, as humans, we tend to associate many things with fragnances and such gift is usually viewed as personalized (and even intimate). They are risky, since each person has a unique taste - finding the 'right one' can be really painful and often is as hard as finding a needle in the haystack. 
 
