@@ -28,7 +28,10 @@ However, I have an access to the perfumes that she likes. I still want to surpri
 
 Using fragrancenet.com as a reference point, I scrape user reviews and perfume info from the website into a dataset. I then clean this dataset, do EDA and use this dataset to derive perfume recommendations for the unseen users. 
 
-**I plan to turn the model into a telegram bot -> user rates perfumes from the given list -> gets 10 recommendations in return.**
+
+**Then, the model is wrapped into a telegram bot -> user rates perfumes from the given list -> gets 10 recommendations in return.**
+
+Essentialy, this project is equivalent to creating a recommendation system for a particular website.
 
 **merged_after_nlp.csv contains the dataset used to construct a recommender - it has already been cleaned and the missing reviews were restored.**
 
